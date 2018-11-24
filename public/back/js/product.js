@@ -224,7 +224,6 @@ $(function() {
     paramsStr += "&picName2=" + picArr[1].picName + "&picAddr2=" + picArr[1].picAddr;
     paramsStr += "&picName3=" + picArr[2].picName + "&picAddr3=" + picArr[2].picAddr;
 
-
     $.ajax({
       type: "post",
       url: "/product/addProduct",
