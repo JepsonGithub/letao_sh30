@@ -4,6 +4,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+  width: 100%;
+}
 
 
 html, body {
@@ -13,7 +17,7 @@ html, body {
 .lt_container {
   width: 100%;
   height: 100%;
-  background-color: pink;
+  background-color: #fff;
   max-width: 640px;
   min-width: 320px;
   margin: 0 auto;
@@ -91,7 +95,6 @@ html, body {
 .lt_main {
   width: 100%;
   height: 100%;
-  background-color: skyblue;
   /* 由于mui的区域滚动, 是基于定位来, 布局容器的(宽高百分之百), 父元素需要有定位 */
   position: relative;
 }
