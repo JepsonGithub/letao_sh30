@@ -150,6 +150,9 @@ $(function() {
 
     // 清空搜索框内容
     $('.search_input').val("");
+
+    // 跳转到商品列表页
+    location.href = "search_list.html?key=" + key;
   })
 
 
