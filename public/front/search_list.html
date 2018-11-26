@@ -32,6 +32,7 @@
           <button class="mui-btn mui-btn-primary search_btn">搜索</button>
         </div>
 
+
         <!-- 排序 -->
         <div class="lt_sort">
           <a href="#"><span>上架时间</span><i class="fa fa-angle-down"></i></a>
@@ -88,7 +89,7 @@
   <ul class="mui-clearfix">
     {{ each data v i }}
       <li>
-        <a href="#">
+        <a href="product.html?productId={{ v.id }}">
           <img src="{{ v.pic[0].picAddr }}" alt="">
           <p class="mui-ellipsis-2">{{ v.proName }}</p>
           <p>
